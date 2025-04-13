@@ -1,5 +1,15 @@
 require('dotenv').config();
 
+require('mongoose');
+
+// username - devalen543
+
+// DB user password - dshcgtRam1utIzfc
+
+// fcc-mongodb-and-mongoose - nombre de la DB
+
+mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 let Person;
 
